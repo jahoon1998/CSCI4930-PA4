@@ -37,13 +37,13 @@ Hillshade_3pm (0 to 255 index) - Hillshade index at 3pm, summer solstice\
 Horizontal_Distance_To_Fire_Points - Horz Dist to nearest wildfire ignition points\
 Wilderness_Area (4 binary columns, 0 = absence or 1 = presence) - Wilderness area designation\
 Soil_Type (40 binary columns, 0 = absence or 1 = presence) - Soil Type designation\
-Cover_Type (7 types, integers 1 to 7) - Forest Cover Type designation\
+Cover_Type (7 types, integers 1 to 7) - Forest Cover Type designation
 
 ### The wilderness areas are:
 1 - Rawah Wilderness Area\
 2 - Neota Wilderness Area\
 3 - Comanche Peak Wilderness Area\
-4 - Cache la Poudre Wilderness Area\
+4 - Cache la Poudre Wilderness Area
 
 ### The soil types are:
 1 Cathedral family - Rock outcrop complex, extremely stony.\
