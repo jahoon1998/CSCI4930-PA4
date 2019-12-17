@@ -85,7 +85,7 @@ Cover_Type (7 types, integers 1 to 7) - Forest Cover Type designation\
 37 Rock outcrop - Cryumbrepts - Cryorthents complex, extremely stony.\
 38 Leighcan - Moran families - Cryaquolls complex, extremely stony.\
 39 Moran family - Cryorthents - Leighcan family complex, extremely stony.\
-40 Moran family - Cryorthents - Rock land complex, extremely stony.\
+40 Moran family - Cryorthents - Rock land complex, extremely stony.
 
 ## Methods
 You need to work on the given dataset.csv for the training purpose. You can either decide on 80%-20%
@@ -98,7 +98,7 @@ library/packages for the base learners. But, you need to write from scratch the 
 ```python
 def training_adaboost(XTrain, yTrain, num_rounds)
 ```
-the function runs num_rounds of AdaBoost on the training set “XTrain” and “yTrain” using the base learner you
+The function above runs num_rounds of AdaBoost on the training set “XTrain” and “yTrain” using the base learner you
 picked above. It returns a data structure to represent the ensemble of base learners (and their
 weights) computed by AdaBoost.
 
@@ -113,11 +113,11 @@ data, and optional yTest target true class labels), and returns the accuracy.
 ## Tasks
 
 1. Run AdaBoost you developed above with the given dataset, and num_rounds=1, 2, 3, 4, …,
-100. For every value of num_rounds, compute the training accuracy, and test accuracy.\
-2. Run the base learner alone on the given datasets, and record the training and test accuracy.\
+100. For every value of num_rounds, compute the training accuracy, and test accuracy.
+2. Run the base learner alone on the given datasets, and record the training and test accuracy.
 3. Plot curves (on a single graph preferably) of the training and test accuracy (of AdaBoosting, as
 well as single base learning classifer) on the y-axis with the number of rounds on the x-axis, and
-include the graph in the jupyter notebook submission.\
+include the graph in the jupyter notebook submission.
 4. In your experiments, you may have noticed something interesting about the accuracy (either
 training or test) when you run AdaBoost for 1 round or 2 rounds or more. Please provide a note
-why this happens.\
+why this happens.
